@@ -6,3 +6,29 @@
 .Logo {
   height: 300px;
 }
+
+.nome{
+  color: #FE7E02;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.nome:hover{
+  color: #3A3A42;
+}
+
+.ftr{
+  border-top: 1px solid #FE7E02;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+
+a:hover{
+  color: #FE7E02;
+}

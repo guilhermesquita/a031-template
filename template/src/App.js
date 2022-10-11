@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Footer from "./components/Footer";
 import logo from "./img/logo.png";
 
 export default function App() {
@@ -10,17 +11,22 @@ export default function App() {
   return (
     <div className="App">
       <h1>Aprenda React na Labenu!</h1>
+
       <div>
         <div>
           <img className={"Logo"} src={logo} alt={"logo"} />
         </div>
+
         <div>
           <a href="https://labenu.com.br">Site da Labenu</a>
         </div>
+        
         <div>
           <button onClick={onClickBotao}> Clique aqui! </button>
         </div>
+
       </div>
+      <Footer/>
     </div>
   );
 }
