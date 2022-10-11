@@ -7,28 +7,28 @@
   height: 300px;
 }
 
-.nome{
-  color: #FE7E02;
+.nome {
+  color: #fe7e02;
   transition: 0.5s;
   cursor: pointer;
 }
 
-.nome:hover{
-  color: #3A3A42;
+.nome:hover {
+  color: #3a3a42;
 }
 
-.ftr{
-  border-top: 1px solid #FE7E02;
+.ftr {
+  border-top: 1px solid #fe7e02;
   margin-top: 20px;
   padding: 20px;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
   transition: 0.5s;
 }
 
-a:hover{
-  color: #FE7E02;
+a:hover {
+  color: #fe7e02;
 }
